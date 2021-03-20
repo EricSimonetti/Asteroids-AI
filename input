@@ -1,0 +1,19 @@
+ship=human,0xff00ff
+#ship=ships.y2020.example.ExampleShip,0xFFFFFF
+ship=ships.y2020.simonetti.YellowBelly,0xF7FF00
+Ship,0xFFFFFF
+#ship=ships.john.RockBlocker,0xFFA500
+fps=120
+period=1200
+quit=130
+
+#ship=ShipClass,0xRRGGBB  -- loads a ship (child of ShipMind) into the framework with color RRGGBB
+#ship=human,0xRRGGBB -- loads a human-controlled ship into the framework with color RRGGBB. Controled by the arrow keys to move/rotate, space to shoot.
+#fps=N -- sets the frames per second to N. The default is 30. The more fps, the more updates per second your ships get. The competition will be run at 30fps.
+#period=N -- pauses the game after N seconds
+#quit=N -- quits the game after N seconds
+
+#Additional keys:
+#q - quit
+#p - pause / unpause
+#c - clear the period (the game won't pause automatically. If already paused because of the expiration of period, c will clear the period, and p will unpause)
